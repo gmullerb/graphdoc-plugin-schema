@@ -1,7 +1,7 @@
 {
   "name": "graphdoc-plugin-schema",
-  "description": "GraphQL documentation using configurable graphdoc document plugin",
-  "version": "1.0.0",
+  "description": "GraphQL schema HTML documentation generation, using configurable graphdoc document-schema plugin",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "Gonzalo Müller Bravo",
   "main": "lib/index.js",
@@ -50,8 +50,7 @@
     "prepublishOnly": "npm run check"
   },
   "peerDependencies": {
-    "@2fd/graphdoc": "2.4.0",
-    "marked": "*"
+    "@2fd/graphdoc": "2.4.0"
   },
   "devDependencies": {
     "@2fd/graphdoc": "2.4.0",
